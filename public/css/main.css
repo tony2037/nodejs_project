@@ -1,0 +1,238 @@
+#mainCanvas{
+    width: 400px;
+    height: 400px;
+    border: solid 1px black;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    text-align: center;
+    vertical-align: middle;
+    background-image:url('../images/f_4141840_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.6);
+    
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    clear: both;
+    overflow: auto;
+    text-align: right;
+    float: right;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.container{
+    background: white;
+    padding: 20px,40px;
+    border: 2px solid black;
+    margin: 10%;
+    overflow: auto;
+}
+
+.jumbotron{
+    background: white;
+    padding: 20px,40px;
+    border: 2px solid black;
+    margin: 10%;
+}
+
+.thumbnail{
+    background: white;
+    padding: 20px,40px;
+    border: 2px solid black;
+    margin: 10%;
+}
+
+#greeting{
+    font-size: 2em;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,STHeiti,"Microsoft Yahei",sans-serif;
+    font-weight: 900;
+    word-spacing: 15px;
+    color: rgba(19, 13, 14, 0.7);
+    border: width 1em black;
+    
+
+}
+
+li{
+    font-size: 2.5em;
+    font-family: sans-serif;
+}
+
+#whoami{
+    font-family: serif;
+}
+
+h1,h2,h3{
+    font-family: serif;
+    font-size: 2em;
+    font-weight: 800;
+    word-spacing: 15px;
+    color: rgba(50,6,1,0.9);
+}
+
+a,p{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.ProjectsList{
+    list-style-image: url("../images/githubicon.png");
+    list-style-type: lower-alpha;
+}
+
+
+ul.Projects{
+    font-size: 2em;
+    color: blue;
+    list-style-image: url('../images/pseudo-element-bullet-featured.png');
+}
+
+ul.Projects li{
+    font-size: 0.5em;
+    color: red;
+    background-color: yellowgreen;
+    text-align: center;
+    width: 100px;
+    display: none;
+    list-style : lower-alpha;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul.Projects:hover li{
+    display: block;
+}
+
+.author {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius:10px;
+    padding: 10px;
+}
+
+.author img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.author h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.author p {
+    text-align: left;
+}
+
+.sitescollections{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid sandybrown;
+    border-radius: 10px;
+    padding: 10px;
+    clear: both;
+}
+
+.sitescollections img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+footer, footer .box{
+    border: 1px solid black;
+    text-align: center;
+    margin: 5% auto;
+}
+
+footer .box{
+    float: left;
+    margin: 5% auto;
+    width: calc(90%/3);
+    text-align: center;
+    display: table;
+    color: white;
+    padding: 10px;
+}
+
+footer h3{
+    color: silver;
+}
+
+footer{
+    margin: 0 auto;
+}
+
+.boxcontainer{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1%;
+    overflow: auto;
+}
+
+.outline{
+    width: 100%;
+    float: right;
+    clear: both;
+    margin: auto;
+    text-align: center;
+}
+
+
+section{
+    margin: 0 auto;
+}
+
+.Contact section h2{
+    font-size: 2em;
+}
+
+.Contact section p{
+    font-size: 1em;
+}
+
+.Contact section a{
+    font-size: 1em;
+}
+
+.outline_About,.outline_Project,.outline_Contact{
+    float: left;
+    margin: auto;
+    text-align: center;
+    width: calc(100%/3);
+}
+
+.aboutIndex h3,.projectIndex h3,.contactIndex h3{
+    font-size: 1em;
+}
+
+.aboutIndex,.projectIndex,.contactIndex{
+    display: none;
+}
+
+article,footer{
+    padding: 150px;
+}
+
+section.section-odd{
+    background-color: rgba(0, 0, 255, 0.6)
+}

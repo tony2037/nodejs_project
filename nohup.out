@@ -1,0 +1,385 @@
+Listen on port : 8787
+Listen on port : 8787
+Listen on port : 8787
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Movie
+{ query: 'Movie',
+  topScoringIntent: { intent: 'Reservation', score: 0.484412849 },
+  intents: 
+   [ { intent: 'Reservation', score: 0.484412849 },
+     { intent: 'Opinion', score: 0.2955628 },
+     { intent: 'None', score: 0.022213649 } ],
+  entities: [] }
+Reservation
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Movie
+{ query: 'Movie',
+  topScoringIntent: { intent: 'Reservation', score: 0.484412849 },
+  intents: 
+   [ { intent: 'Reservation', score: 0.484412849 },
+     { intent: 'Opinion', score: 0.2955628 },
+     { intent: 'None', score: 0.022213649 } ],
+  entities: [] }
+Reservation
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Fuck you
+{ query: 'Fuck you',
+  topScoringIntent: { intent: 'Opinion', score: 0.7357452 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.7357452 },
+     { intent: 'Reservation', score: 0.2222992 },
+     { intent: 'None', score: 0.0177334957 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Fuck you
+{ query: 'Fuck you',
+  topScoringIntent: { intent: 'Opinion', score: 0.7357452 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.7357452 },
+     { intent: 'Reservation', score: 0.2222992 },
+     { intent: 'None', score: 0.0177334957 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=你好阿
+{ query: '`}?',
+  topScoringIntent: { intent: 'Opinion', score: 0.47922492 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.47922492 },
+     { intent: 'Reservation', score: 0.349242628 },
+     { intent: 'None', score: 0.0213810429 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=下午見
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Bad Request</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Bad Request - Invalid URL</h2>
+<hr><p>HTTP Error 400. The request URL is invalid.</p>
+</BODY></HTML>
+
+/home/wp2017/user/tony2037/public_html/nodejs_project/server.js:55
+            topScoringIntent = body.topScoringIntent.intent;
+                                                    ^
+
+TypeError: Cannot read property 'intent' of undefined
+    at Request._callback (/home/wp2017/user/tony2037/public_html/nodejs_project/server.js:55:53)
+    at Request.self.callback (/home/wp2017/user/tony2037/public_html/nodejs_project/node_modules/request/request.js:186:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:194:7)
+    at Request.<anonymous> (/home/wp2017/user/tony2037/public_html/nodejs_project/node_modules/request/request.js:1163:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:191:7)
+    at IncomingMessage.<anonymous> (/home/wp2017/user/tony2037/public_html/nodejs_project/node_modules/request/request.js:1085:12)
+    at Object.onceWrapper (events.js:293:19)
+    at emitNone (events.js:91:20)
+Listen on port : 8787
+Listen on port : 8787
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=tony2037
+{ query: 'tony2037',
+  topScoringIntent: { intent: 'None', score: 0.891645968 },
+  intents: 
+   [ { intent: 'None', score: 0.891645968 },
+     { intent: 'Opinion', score: 0.0805872 },
+     { intent: 'Reservation', score: 0.0450320579 } ],
+  entities: [] }
+None
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Play ball?
+{ query: 'Play ball?',
+  topScoringIntent: { intent: 'Reservation', score: 0.474841267 },
+  intents: 
+   [ { intent: 'Reservation', score: 0.474841267 },
+     { intent: 'Opinion', score: 0.33915025 },
+     { intent: 'None', score: 0.0176884 } ],
+  entities: 
+   [ { entity: 'play ball',
+       type: 'Private',
+       startIndex: 0,
+       endIndex: 8,
+       score: 0.3593107 } ] }
+Reservation
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Hello?shut up
+{ query: 'Hello?shut up',
+  topScoringIntent: { intent: 'Opinion', score: 0.4312815 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.4312815 },
+     { intent: 'Reservation', score: 0.404325247 },
+     { intent: 'None', score: 0.0181810968 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Hello
+{ query: 'Hello',
+  topScoringIntent: { intent: 'Opinion', score: 0.5922068 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.5922068 },
+     { intent: 'Reservation', score: 0.234324187 },
+     { intent: 'None', score: 0.0317102857 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Do you want to play a game?
+{ query: 'Do you want to play a game?',
+  topScoringIntent: { intent: 'Reservation', score: 0.595806658 },
+  intents: 
+   [ { intent: 'Reservation', score: 0.595806658 },
+     { intent: 'Opinion', score: 0.285510182 },
+     { intent: 'None', score: 0.0108194938 } ],
+  entities: [] }
+Reservation
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Do you want movie?
+{ query: 'Do you want movie?',
+  topScoringIntent: { intent: 'Reservation', score: 0.675423443 },
+  intents: 
+   [ { intent: 'Reservation', score: 0.675423443 },
+     { intent: 'Opinion', score: 0.1995584 },
+     { intent: 'None', score: 0.010857583 } ],
+  entities: [] }
+Reservation
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Fuck you
+{ query: 'Fuck you',
+  topScoringIntent: { intent: 'Opinion', score: 0.7357452 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.7357452 },
+     { intent: 'Reservation', score: 0.2222992 },
+     { intent: 'None', score: 0.0177334957 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Chigga
+{ query: 'Chigga',
+  topScoringIntent: { intent: 'None', score: 0.891645968 },
+  intents: 
+   [ { intent: 'None', score: 0.891645968 },
+     { intent: 'Opinion', score: 0.0805872 },
+     { intent: 'Reservation', score: 0.0450320579 } ],
+  entities: [] }
+None
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=hello
+{ query: 'hello',
+  topScoringIntent: { intent: 'Opinion', score: 0.5922068 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.5922068 },
+     { intent: 'Reservation', score: 0.234324187 },
+     { intent: 'None', score: 0.0317102857 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=i am handsome
+{ query: 'i am handsome',
+  topScoringIntent: { intent: 'Opinion', score: 0.508606 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.508606 },
+     { intent: 'Reservation', score: 0.3189055 },
+     { intent: 'None', score: 0.0233140979 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Shut up man
+{ query: 'Shut up man',
+  topScoringIntent: { intent: 'Opinion', score: 0.508606 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.508606 },
+     { intent: 'Reservation', score: 0.3189055 },
+     { intent: 'None', score: 0.0233140979 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Are you ok?
+{ query: 'Are you ok?',
+  topScoringIntent: { intent: 'Reservation', score: 0.471082538 },
+  intents: 
+   [ { intent: 'Reservation', score: 0.471082538 },
+     { intent: 'Opinion', score: 0.3981857 },
+     { intent: 'None', score: 0.013914681 } ],
+  entities: [] }
+Reservation
+Error: Can't set headers after they are sent.
+    at ServerResponse.setHeader (_http_outgoing.js:371:11)
+    at ServerResponse.header (/home/wp2017/user/tony2037/public_html/nodejs_project/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/home/wp2017/user/tony2037/public_html/nodejs_project/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/wp2017/user/tony2037/public_html/nodejs_project/node_modules/express/lib/response.js:267:15)
+    at app.post (/home/wp2017/user/tony2037/public_html/nodejs_project/server.js:32:9)
+    at Layer.handle [as handle_request] (/home/wp2017/user/tony2037/public_html/nodejs_project/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/wp2017/user/tony2037/public_html/nodejs_project/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/wp2017/user/tony2037/public_html/nodejs_project/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/wp2017/user/tony2037/public_html/nodejs_project/node_modules/express/lib/router/layer.js:95:5)
+    at /home/wp2017/user/tony2037/public_html/nodejs_project/node_modules/express/lib/router/index.js:281:22
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Fuck you
+{ query: 'Fuck you',
+  topScoringIntent: { intent: 'Opinion', score: 0.7357452 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.7357452 },
+     { intent: 'Reservation', score: 0.2222992 },
+     { intent: 'None', score: 0.0177334957 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=uw3ridrtidirg wkfsdk  ewlflsf
+{ query: 'uw3ridrtidirg wkfsdk  ewlflsf',
+  topScoringIntent: { intent: 'None', score: 0.857104838 },
+  intents: 
+   [ { intent: 'None', score: 0.857104838 },
+     { intent: 'Reservation', score: 0.06729167 },
+     { intent: 'Opinion', score: 0.0587972552 } ],
+  entities: [] }
+None
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=fuck you
+{ query: 'fuck you',
+  topScoringIntent: { intent: 'Opinion', score: 0.7357452 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.7357452 },
+     { intent: 'Reservation', score: 0.2222992 },
+     { intent: 'None', score: 0.0177334957 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=fuck you sdfbasdfgs
+{ query: 'fuck you sdfbasdfgs',
+  topScoringIntent: { intent: 'Opinion', score: 0.52015 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.52015 },
+     { intent: 'Reservation', score: 0.171258047 },
+     { intent: 'None', score: 0.06825758 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=fuckdfbasdfgs
+{ query: 'fuckdfbasdfgs',
+  topScoringIntent: { intent: 'None', score: 0.891645968 },
+  intents: 
+   [ { intent: 'None', score: 0.891645968 },
+     { intent: 'Opinion', score: 0.0805872 },
+     { intent: 'Reservation', score: 0.0450320579 } ],
+  entities: [] }
+None
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=520
+{ query: '520',
+  topScoringIntent: { intent: 'Opinion', score: 0.5922068 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.5922068 },
+     { intent: 'Reservation', score: 0.234324187 },
+     { intent: 'None', score: 0.0317102857 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=520 fuck you
+{ query: '520 fuck you',
+  topScoringIntent: { intent: 'Opinion', score: 0.639073 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.639073 },
+     { intent: 'Reservation', score: 0.2770193 },
+     { intent: 'None', score: 0.0180793013 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=5/20 fuck you
+{ query: '5/20 fuck you',
+  topScoringIntent: { intent: 'Opinion', score: 0.569855 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.569855 },
+     { intent: 'Reservation', score: 0.337110579 },
+     { intent: 'None', score: 0.0157468729 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=monday fuck
+{ query: 'monday fuck',
+  topScoringIntent: { intent: 'Opinion', score: 0.6614893 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.6614893 },
+     { intent: 'Reservation', score: 0.237995222 },
+     { intent: 'None', score: 0.0223539937 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=monday fuck
+{ query: 'monday fuck',
+  topScoringIntent: { intent: 'Opinion', score: 0.6614893 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.6614893 },
+     { intent: 'Reservation', score: 0.237995222 },
+     { intent: 'None', score: 0.0223539937 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=monday do
+{ query: 'monday do',
+  topScoringIntent: { intent: 'Opinion', score: 0.5200692 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.5200692 },
+     { intent: 'Reservation', score: 0.2982872 },
+     { intent: 'None', score: 0.0259181559 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=monday do somethig
+{ query: 'monday do somethig',
+  topScoringIntent: { intent: 'Opinion', score: 0.332824618 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.332824618 },
+     { intent: 'Reservation', score: 0.248644575 },
+     { intent: 'None', score: 0.07572216 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Monday do somethig
+{ query: 'Monday do somethig',
+  topScoringIntent: { intent: 'Opinion', score: 0.332824618 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.332824618 },
+     { intent: 'Reservation', score: 0.248644575 },
+     { intent: 'None', score: 0.07572216 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Monday 
+{ query: 'Monday',
+  topScoringIntent: { intent: 'Opinion', score: 0.5922068 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.5922068 },
+     { intent: 'Reservation', score: 0.234324187 },
+     { intent: 'None', score: 0.0317102857 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Monday 
+{ query: 'Monday',
+  topScoringIntent: { intent: 'Opinion', score: 0.5922068 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.5922068 },
+     { intent: 'Reservation', score: 0.234324187 },
+     { intent: 'None', score: 0.0317102857 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=WTF
+{ query: 'WTF',
+  topScoringIntent: { intent: 'Opinion', score: 0.5922068 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.5922068 },
+     { intent: 'Reservation', score: 0.234324187 },
+     { intent: 'None', score: 0.0317102857 } ],
+  entities: [] }
+Opinion
+string
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/16d0ac12-bb40-4cb3-b005-d1f5e815a1ce?subscription-key=39b08563df2c4d3a96000d4512378f04&verbose=true&timezoneOffset=0&q=Fuck you
+{ query: 'Fuck you',
+  topScoringIntent: { intent: 'Opinion', score: 0.7357452 },
+  intents: 
+   [ { intent: 'Opinion', score: 0.7357452 },
+     { intent: 'Reservation', score: 0.2222992 },
+     { intent: 'None', score: 0.0177334957 } ],
+  entities: [] }
+Opinion

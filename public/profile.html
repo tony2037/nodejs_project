@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/profile.css">
+    <title>Profile</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script  src="./javascript/profile.js"></script>
+</head>
+<body>
+    <div class="tutorial-botton"><span>=</span></div>
+    <header>
+        <div class="container" id="outline">
+            <h1><a href="#" onclick="window.open('https://www.facebook.com/profile.php?id=100003152204265');">
+                <img src="./images/profile photo.jpg" width="10%" alt="">劉宥辰 || Yu-Chen Liu || Tony</a> 
+                <input type="button" name="1" value="Back to index" onclick="window.location.assign('./index.html')">
+            </h1>
+        </div>    
+    </header>
+    
+    <article>
+        
+        <div class="container">
+            <section class="social">
+                <div class="jumbotron" id="introduction1">
+                <div class="SocialmediaTitle"><h1 id = "Social media" onclick="changeHtml('劉公','Social media')">Social media</h1></div>
+                <div class="SocialmediaBody">
+                    <p><a href="https://www.facebook.com/profile.php?id=100003152204265">facebook</a></p>
+                    <p><a href="https://www.instagram.com/ztex030640417/?hl=zh-tw">Instragram</a></p>
+                    <p><a href="https://www.linkedin.com/in/%E5%AE%A5%E8%BE%B0-%E5%8A%89-b5b831118/">Linkein</a></p>
+                    <p><a href="https://github.com/tony2037">github</a></p>
+                    <a href="#"><img src="https://unsplash.it/200/300?image=0" alt="" width="10%"></a>
+                </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="projects">
+                <div class="jumbotron" id="introduction2">
+                <div class="PorjectsTitle">
+                    <h1 id="Projects" onmousedown="changeHtml('作品','Projects')">Porjects</h1>
+                </div>
+                <div class="ProjectsBody">
+                    <p>Waiting for adding <a href="https://github.com/tony2037"><img src="./images/16142863_1313316752058621_3804037700414455653_n.jpg" alt="" width="10%"></a></p>
+                </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="experience">
+                <div class="jumbotron" id="introduction3">
+                <div class="ExperienceTitle">
+                    <h1 id="Experience" onclick="changeHtml('學經歷','Experience')">Experience</h1>
+                    <h2>Degree</h2>
+                </div>
+                <div class="ExperienceBody">
+                    <ol>
+                    <li><b>High School : </b>衛道中學 Viator High School</li>
+                    <li><b>University : </b>成功大學 電機工程學系 Chen-Kung University Electronic Engineering</li>    
+                    </ol>
+                    <h2>Work</h2>
+                    <ol>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                </div>
+                </div>
+            </section>
+        </div>
+        
+    </article>
+       
+    <footer>
+        <div class="footer-copyright">
+            <div class="copyright-announcement"><span>Copyright © 2017 Liu Yu-Chen Inc. 保留一切權利。</span></div>
+            <div class="copyright-links"></div>
+        </div>
+        <div class="footer-copyright-locale"><span>台灣</span></div>
+    </footer>
+</body>
+</html>

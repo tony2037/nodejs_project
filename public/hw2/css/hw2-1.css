@@ -1,0 +1,281 @@
+*{box-sizing: border-box;}
+
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+.row{
+    border: 5px solid red;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class^=col-]{
+    padding: 15px;
+    float: left;
+    border: 1px solid #000;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        width: 100%;
+    }
+
+    .col-xs-1{
+        width: calc(100% * 1 / 12);
+    }
+
+    .col-xs-2{
+        width: calc(100% * 1 / 12);
+    }
+    
+    .col-xs-3{
+        width: calc(100% * 3 / 12);
+    }
+
+    .col-xs-4{
+        width: calc(100% * 4 / 12);
+    }
+
+    .col-xs-5{
+        width: calc(100% * 5 / 12);
+    }
+
+    .col-xs-6{
+        width: calc(100% * 6 / 12);
+    }
+    
+    .col-xs-7{
+        width: calc(100% * 7 / 12);
+    }
+
+    .col-xs-8{
+        width: calc(100% * 8 / 12);
+    }
+
+    .col-xs-9{
+        width: calc(100% * 9 / 12);
+    }
+
+    .col-xs-10{
+        width: calc(100% * 10 / 12);
+    }
+
+    .col-xs-11{
+        width: calc(100% * 11 / 12);
+    }
+
+    .col-xs-12{
+        width: calc(100% * 12 / 12);
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .container{
+        width: 750px;
+    }
+
+    .col-sm-1{
+        width: calc(100% * 1 / 12);
+    }
+
+    .col-sm-2{
+        width: calc(100% * 1 / 12);
+    }
+    
+    .col-sm-3{
+        width: calc(100% * 3 / 12);
+    }
+
+    .col-sm-4{
+        width: calc(100% * 4 / 12);
+    }
+
+    .col-sm-5{
+        width: calc(100% * 5 / 12);
+    }
+
+    .col-sm-6{
+        width: calc(100% * 6 / 12);
+    }
+    
+    .col-sm-7{
+        width: calc(100% * 7 / 12);
+    }
+
+    .col-sm-8{
+        width: calc(100% * 8 / 12);
+    }
+
+    .col-sm-9{
+        width: calc(100% * 9 / 12);
+    }
+
+    .col-sm-10{
+        width: calc(100% * 10 / 12);
+    }
+
+    .col-sm-11{
+        width: calc(100% * 11 / 12);
+    }
+
+    .col-sm-12{
+        width: calc(100% * 12 / 12);
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    .container{
+        width: 970px;
+    }
+
+    .col-md-1{
+        width: calc(100% * 1 / 12);
+    }
+
+    .col-md-2{
+        width: calc(100% * 1 / 12);
+    }
+    
+    .col-md-3{
+        width: calc(100% * 3 / 12);
+    }
+
+    .col-md-4{
+        width: calc(100% * 4 / 12);
+    }
+
+    .col-md-5{
+        width: calc(100% * 5 / 12);
+    }
+
+    .col-md-6{
+        width: calc(100% * 6 / 12);
+    }
+    
+    .col-md-7{
+        width: calc(100% * 7 / 12);
+    }
+
+    .col-md-8{
+        width: calc(100% * 8 / 12);
+    }
+
+    .col-md-9{
+        width: calc(100% * 9 / 12);
+    }
+
+    .col-md-10{
+        width: calc(100% * 10 / 12);
+    }
+
+    .col-md-11{
+        width: calc(100% * 11 / 12);
+    }
+
+    .col-md-12{
+        width: calc(100% * 12 / 12);
+    }
+}
+
+@media screen and (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+
+    .col-lg-1{
+        width: calc(100% * 1 / 12);
+    }
+
+    .col-lg-2{
+        width: calc(100% * 1 / 12);
+    }
+    
+    .col-lg-3{
+        width: calc(100% * 3 / 12);
+    }
+
+    .col-lg-4{
+        width: calc(100% * 4 / 12);
+    }
+
+    .col-lg-5{
+        width: calc(100% * 5 / 12);
+    }
+
+    .col-lg-6{
+        width: calc(100% * 6 / 12);
+    }
+    
+    .col-lg-7{
+        width: calc(100% * 7 / 12);
+    }
+
+    .col-lg-8{
+        width: calc(100% * 8 / 12);
+    }
+
+    .col-lg-9{
+        width: calc(100% * 9 / 12);
+    }
+
+    .col-lg-10{
+        width: calc(100% * 10 / 12);
+    }
+
+    .col-lg-11{
+        width: calc(100% * 11 / 12);
+    }
+
+    .col-lg-12{
+        width: calc(100% * 12 / 12);
+    }
+}
+
+.container{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.thumbnail img{
+    width: 100%;
+}
+
+section{
+    padding:50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page {
+    height: 20%;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container-carousel *{
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container-carousel{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}

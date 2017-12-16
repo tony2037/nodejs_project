@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="./javascript/contact.js"></script>
+</head>
+<body>
+    <form method="get" action="/get">
+        <input id="name" type="text" name="fname" value="" placeholder="Please put your name">
+        <textarea id="feedBack" rows="20" cols="" placeholder="Please put your feedback" name="feedback"></textarea>
+        <input id="submit" type="submit">
+    </form>
+
+    <form method="post" action="/test">
+        <input type="text" name="pfname" value="" placeholder="Please put your name">
+        <textarea rows="20" cols="" placeholder="Please put your feedback" name="pfeedback"></textarea>
+        <input type="submit">
+    </form>
+
+    <h2>目前模型剛建立 所以判斷還不太準確喔抱歉 ><</h2>
+    <form method="get" action="/reserve">
+        <input type="text" name="message" value="" placeholder="Please put your message">
+        <input id="reserve_sumit" type="submit">
+    </form>
+    <div id="content"><h3>Hello.你可以在這邊輸入對我的:預約、意見 系統會自動判斷語意 (由於編碼問題 目前只支援英文><)</h3></div>
+
+</body>
+</html>
